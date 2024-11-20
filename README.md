@@ -47,7 +47,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/m-attempt-wbasn.git
+git clone [https://github.com/yourusername/m-attempt-wbasn.git](https://github.com/DrSadiqfareed/M-ATTEMPT)
 cd m-attempt-wbasn
 Run the Python script:
 
