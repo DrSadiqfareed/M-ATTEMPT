@@ -41,3 +41,45 @@ The simulation provides real-time graphs to monitor the protocol's performance:
 Install dependencies using:
 ```bash
 pip install matplotlib
+
+How to Run
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/m-attempt-wbasn.git
+cd m-attempt-wbasn
+Run the Python script:
+
+bash
+Copy code
+python m_attempt_simulation.py
+View the performance graphs generated during the simulation.
+
+File Structure
+plaintext
+Copy code
+.
+├── m_attempt_simulation.py  # Main simulation script
+├── README.md                # Documentation
+Example Outputs
+1. Active Nodes Over Time
+Shows the number of operational nodes as the simulation progresses.
+
+
+2. Total Energy Consumption
+Tracks the remaining energy of the network during the simulation.
+
+
+3. Throughput
+Illustrates the successful delivery of packets to the sink node.
+
+
+Contributing
+Feel free to fork the repository and contribute enhancements! Create a pull request for review.
+
+License
+This project is licensed under the MIT License.
+
+References
+Original Research Paper: N. Javaid et al., "M-ATTEMPT: A New Energy-Efficient Routing Protocol for Wireless Body Area Sensor Networks," Procedia Computer Science, 2013. DOI: 10.1016/j.procs.2013.06.033
